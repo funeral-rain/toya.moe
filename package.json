@@ -1,0 +1,14 @@
+{
+  "name": "toya.moe",
+  "description": "Toya's blog",
+  "devDependencies": {
+    "sass": "^1.72.0",
+    "vitepress": "1.0.0-rc.45",
+    "vue": "^3.4.21"
+  },
+  "scripts": {
+    "dev": "vitepress dev .",
+    "build": "vitepress build .",
+    "preview": "vitepress preview ."
+  }
+}
