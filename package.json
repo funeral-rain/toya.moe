@@ -1,10 +1,10 @@
  {
   "name": "toya.moe",
-  "description": "Toya's blog",
+  "description": "Funeral Rain's blog",
   "packageManager": "pnpm@8.10.0",
   "devDependencies": {
     "sass": "^1.72.0",
-    "vitepress": "^1.0.0-rc.45",
+    "vitepress": "1.0.0-rc.45",
     "vue": "^3.4.21"
   },
   "scripts": {

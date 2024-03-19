@@ -13,9 +13,6 @@ hero:
     - theme: alt
       text: API Examples
       link: /api-examples
-#  image:
-#      src: /picture/TOUYA.png
-#      alt: VitePress
 features:
   - title: Feature A
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
