@@ -2,8 +2,8 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Toya's Blog",
-  description: "Toya's moe blog, Just a chaotic doom",
+  title: "Funeral Rain's Blog",
+  description: "This blog is for Fuyutsuki Toya, an \"arrogant little girl\"",
   base: '/',
   srcDir: 'articles',
   outDir: './dist',
@@ -25,7 +25,7 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' },
+      { icon: 'github', link: 'https://github.com/funeral-rain/toya.moe' },
     ],
   },
 })

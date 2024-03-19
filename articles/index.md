@@ -3,9 +3,9 @@
 layout: home
 
 hero:
-  name: "Toya's Blog"
-  text: "Toya's moe blog, Just a chaotic doom"
-  tagline: My great project tagline
+  name: "Funeral Rain's Blog"
+  text: "This blog is for Fuyutsuki Toya, an \"arrogant little girl\""
+  tagline: "\"Not arrogant little girl, I am gentle and mature lady!\", Toya shout at me (LoL "
   actions:
     - theme: brand
       text: Markdown Examples
@@ -13,7 +13,9 @@ hero:
     - theme: alt
       text: API Examples
       link: /api-examples
-
+#  image:
+#      src: /picture/TOUYA.png
+#      alt: VitePress
 features:
   - title: Feature A
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
