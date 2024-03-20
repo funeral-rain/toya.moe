@@ -9,13 +9,7 @@ hero:
   actions:
     - theme: brand
       text: Who is Fuyutsuki Toya? 
-      link: /toya
-    - theme: alt
-      text: Markdown Examples
-      link: /markdown-examples
-    - theme: alt
-      text: API Examples
-      link: /api-examples
+      link: /toya-kawaii/toya
 features:
   - title: Feature A
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
