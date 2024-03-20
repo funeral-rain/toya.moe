@@ -8,6 +8,9 @@ hero:
   tagline: "\"Not arrogant little girl, I am gentle and mature lady!\", Toya shout at me (LoL "
   actions:
     - theme: brand
+      text: Who is Fuyutsuki Toya? 
+      link: /toya
+    - theme: alt
       text: Markdown Examples
       link: /markdown-examples
     - theme: alt

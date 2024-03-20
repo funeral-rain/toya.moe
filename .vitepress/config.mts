@@ -10,11 +10,17 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
+      { text: 'Fuyutsuki Toya', link: '/toya' },
       { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' },
     ],
 
     sidebar: [
+      {
+        text: 'Toya Kawaii !!',
+        items: [
+          { text: 'Fuyutsuki Toya', link: '/toya' },
+        ],
+      },
       {
         text: 'Examples',
         items: [
