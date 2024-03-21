@@ -137,3 +137,16 @@
   --docsearch-primary-color: var(--vp-c-brand-1) !important;
 }
 
+#app {
+  background-image: url('/bg/TOUYA_e011c_spoiler.webp');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+@media (max-width: 767px) {
+  #app {
+    background-image: url('/bg/toya_pudding.webp');
+  }
+}
