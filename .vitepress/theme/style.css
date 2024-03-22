@@ -170,7 +170,7 @@ html.dark {
 }
 
 #app {
-  background-image: url('/bg/TOUYA_e011c_spoiler_doc.webp');
+  background-image: url('/bg/TOUYA_e011c_spoiler_light.webp');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -183,7 +183,7 @@ html.dark #app {
 
 @media (max-width: 767px) {
   #app {
-    background-image: url('/bg/toya_pudding_spoiler.webp');
+    background-image: url('/bg/toya_pudding_spoiler_light.webp');
   }
 
   html.dark #app {
