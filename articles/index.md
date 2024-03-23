@@ -6,6 +6,9 @@ hero:
   name: "Funeral Rain's Blog"
   text: "This blog is for Fuyutsuki Toya, an \"arrogant little girl\""
   tagline: "\"Not arrogant little girl, I am gentle and mature lady!\", Toya shout at me (LoL "
+  image:
+    src: /toya.webp
+    alt: さくら、もゆ - 冬月十夜 
   actions:
     - theme: brand
       text: Who is Fuyutsuki Toya? 
