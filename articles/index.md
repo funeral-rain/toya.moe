@@ -4,21 +4,27 @@ layout: home
 
 hero:
   name: "Funeral Rain's Blog"
-  text: "This blog is for Fuyutsuki Toya, an \"arrogant little girl\""
+  text: "The blog for Toya, kawaii but \"arrogant\" little girl !"
   tagline: "\"Not arrogant little girl, I am gentle and mature lady!\", Toya shout at me (LoL "
   image:
     src: /toya.webp
     alt: さくら、もゆ - 冬月十夜 
   actions:
     - theme: brand
-      text: Who is Fuyutsuki Toya? 
+      text: Who is Toya? 
       link: /toya-kawaii/toya
+    - theme: alt
+      text: Friends
+      link: /other/friends
+    - theme: alt
+      text: About me
+      link: /other/about-me
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Toya Kawaii !!
+    details: including toya's introduce, and my love for toya
+  - title: About me
+    details: ...Just a chaotic doom
+  - title: Technology
+    details: a newbie's programming record
 ---
 

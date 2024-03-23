@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "Funeral Rain's Blog",
-  description: "This blog is for Fuyutsuki Toya, an \"arrogant little girl\"",
+  description: "The blog for Toya, kawaii but \"arrogant\" little girl !",
   base: '/',
   srcDir: 'articles',
   outDir: './dist',
@@ -12,6 +12,7 @@ export default defineConfig({
     nav: [
       { text: 'Fuyutsuki Toya', link: '/toya-kawaii/toya' },
       { text: 'Home', link: '/' },
+      { text: 'Friends', link: '/other/friends'}
     ],
 
     sidebar: [
@@ -22,12 +23,20 @@ export default defineConfig({
         ],
       },
       {
+        text: 'other',
+        items: [
+          { text: 'Friends', link: '/other/friends' },
+          { text: 'About me', link: '/other/about-me' },
+        ]
+      },
+      {
         text: 'Examples',
         items: [
           { text: 'Markdown Examples', link: '/markdown-examples' },
           { text: 'Runtime API Examples', link: '/api-examples' },
         ],
       },
+      
     ],
 
     socialLinks: [
