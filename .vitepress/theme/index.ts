@@ -5,6 +5,8 @@ import DefaultTheme from 'vitepress/theme'
 
 import './style.css'
 
+import KunImage from '../components/kun-image/KunImage.vue'
+
 export default {
   extends: DefaultTheme,
   Layout: () => {
@@ -13,6 +15,6 @@ export default {
     })
   },
   enhanceApp({ app, router, siteData }) {
-    // ...
+    app.component('KunImage', KunImage)
   },
 } satisfies Theme
