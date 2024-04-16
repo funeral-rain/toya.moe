@@ -14,6 +14,9 @@ hero:
       text: Who is Toya? 
       link: /toya-kawaii/toya
     - theme: alt
+      text: Technology 
+      link: /tech/tech
+    - theme: alt
       text: Friends
       link: /other/friends
     - theme: alt
@@ -22,9 +25,9 @@ hero:
 features:
   - title: Toya Kawaii !!
     details: including toya's introduce, and my love for toya
-  - title: About me
-    details: ...Just a chaotic doom
   - title: Technology
     details: a newbie's programming record
+  - title: About me
+    details: ...Just a chaotic doom
 ---
 
