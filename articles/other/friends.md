@@ -27,6 +27,12 @@ blog：<a href="https://soft.moe/" target="_blank" rel="noreferrer">https://soft
 </a>
 blog：<a href="https://lcwebsite.cn/" target="_blank" rel="noreferrer">https://lcwebsite.cn/</a>
 :::
+::: details listder
+<a href="https://blog.listder.xyz/" target="_blank" rel="noreferrer">
+<img src="./img/listder.webp" alt="listder" width=120px height=120px>
+</a>
+blog：<a href="https://blog.listder.xyz/" target="_blank" rel="noreferrer">https://blog.listder.xyz/</a>
+:::
 ::: details 洛华
 <a href="https://luohua.moe/" target="_blank" rel="noreferrer">
 <img src="./img/luohua.webp" alt="luohua" width=120px height=120px>
