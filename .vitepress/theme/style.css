@@ -159,6 +159,23 @@ html.dark {
   --docsearch-primary-color: var(--vp-c-brand-1) !important;
 }
 
+.vp-doc h2 {
+  margin-top: 16px;
+  margin-bottom: 12px;
+}
+
+.vp-doc p {
+  line-height: 30px;
+}
+
+.vp-doc ul {
+  line-height: 35px;
+}
+
+.vp-doc .custom-block ul {
+  line-height: 43px;
+}
+
 .VPNavBar .container {
   backdrop-filter: blur(5px);
 }
