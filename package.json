@@ -1,15 +1,21 @@
- {
+{
   "name": "toya.moe",
   "description": "Funeral Rain's blog",
-  "packageManager": "pnpm@8.10.0",
+  "packageManager": "pnpm@9.0.4",
+  "package-manager-strict": false,
   "devDependencies": {
-    "sass": "^1.72.0",
+    "sass": "^1.75.0",
     "vitepress": "1.0.0-rc.45",
-    "vue": "^3.4.21"
+    "vue": "^3.4.23"
   },
   "scripts": {
     "dev": "vitepress dev .",
     "build": "vitepress build .",
     "preview": "vitepress preview ."
+  },
+  "overrides": {
+    "@storybook/builder-manager": {
+      "esbuild": "0.20.2"
+    }
   }
 }
