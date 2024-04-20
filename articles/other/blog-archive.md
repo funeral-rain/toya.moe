@@ -42,6 +42,8 @@
 * 24.04.17 
 * 上午 修改了`.vp-doc`（其实就是文章页面）的`p` `ul`元素的`line-height`属性以调整行距，还有`h2`标题元素的`margin-top` `margin-bottom`属性以解决文章中标题前后间距过大问题 
 * 下午 添加了listder的blog为友链   
+
+* 24.04.20 下午 更新了`pnpm`, `vitepress`版本，顺便设置了`package-manager-strict`为false以忽略版本检查，这样一来本地部署就方便些了
 :::    
     
 ## 目前blog存在的issues＆ToDoList    
