@@ -10,42 +10,53 @@
 
 ::: details 24.03
 * 24.03.16 晚 确立建设blog的规划，网页使用`vitepress`框架，静态托管到`github pages`，并将域名托管到`cloudflare`上 
-     
+  
 * 24.03.17 凌晨 鲲生成`vitepress`框架模板，pr到网站repo  
-    
+  
 * 24.03.20 凌晨 将原本纯粹的`vitepress`模板中的主页文字，网页标题等做了替换，右上角github图标指向的链接由默认的 [vitepress项目地址](https://github.com/vuejs/vitepress) 改为 [blog的项目地址](https://github.com/funeral-rain/toya.moe) ；修改cf配置，强制网站https访问    
-    
+  
 * 24.03.20 傍晚 添加了网站主题角色 [**冬月十夜** 的介绍文章](/toya-kawaii/toya.html) ，并在侧栏，顶栏和主页添加该文章地址  
-    
+  
 * 24.03.21 凌晨 修改整理article区结构~~导致网页的路由改变~~，在鲲的帮助下给blog添加分别适用于小屏幕和大屏幕的背景图片~~顺带学习了一轮ps使用以制作背景图~~，添加背景图的方法为修改`#app`的`background`相关属性，使用媒体查询`@media (max-width: 767px){...}`切换屏幕不同大小使用的背景图，期间鲲提pr帮我把侧栏顶栏等位置的颜色设定为透明让添加了背景图片的网页看起来不会奇怪
-    
+  
 * 24.03.22 全天
 * 通过修改一般情况下`.VPNavBar .container`的`backdrop-filter`属性为`blur(5px)`，使得电脑等大屏幕下顶栏变为毛玻璃样式；以相同的方式修改`.VPLocalNav` `.VPNavScreen` `.VPSidebar`，使得电脑等大屏幕下侧栏也变为毛玻璃样式
 * 通过添加`@media (max-width: 960px){...}`，修改屏幕像素小于960px时的`--vp-c-bg` `--vp-c-bg-alt`属性分别为`#fffdf1de` `#fffdf1ee`，将小屏幕的顶栏/底栏带上颜色，使得小屏幕的顶栏/底栏展开时看起来不会奇怪
 * 依葫芦画瓢，修改`html.dark`下的两张背景图~~做法方法并不优雅，现在blog有四张背景图文件~~，还有小屏幕的顶栏/底栏颜色（`--vp-c-bg`修改为`#1e1f33de`,`--vp-c-bg-alt`修改为`#1e1f33ee` ~~有人对这点要素察觉吗~~），实现对深色模式的适配
-    
+  
 * 24.03.23 上午 使用ps抠图制作了十夜logo，并添加到网站主页，修改了网站主页字体颜色让视觉效果更佳
 * 自此本blog界面基本完成（大概只是第一版
 ---
 * 24.03.24 晚 
+
 * 添加友链，包括Alice Aierlanta，Anthony Summit，鲲，LC，洛华，小月月的blog，还有Miku Meow的github（因为算是特别嘉宾，但他还没建blog，所以先用github顶上了）    
+
 * 在友链文章中补充了对鲲和Miku Meow的感谢
-:::
-::: details 24.04
+  :::
+  ::: details 24.04
+
 * 24.04.07 晚 用新抠的图替换了原本的主页logo，把樱花摸鱼的sd原图里的另一些烟花效果也合并了进去     
-    
+
 * 24.04.16 晚 
+
 * 在课上用平板的obsidian写这篇文章，平板连接不到电脑，于是尝试在github网页上直接把文章push进去，结果commit了两次还是build失败。待排查具体原因，与鲲探讨过后得知这么做应该是完全可行的，不知道其他的什么原因导致的build失败   
+
 * 补上了之前在主页有的technology分区的坑，修改了主页还有顶栏和侧栏，姑且加了一篇文章作为这个分区的入口~~有够简陋的~~，弄了个示例文章作为新坑（大概两天内会把那篇文章写好   
+
 * 新增了blog archive（也就是你现在看到的这篇文章），作为blog开发日志~~以免我以后看自己的blog的时候都不知道自己之前干了啥~~
-    
+
 * 24.04.17 
+
 * 上午 修改了`.vp-doc`（其实就是文章页面）的`p` `ul`元素的`line-height`属性以调整行距，还有`h2`标题元素的`margin-top` `margin-bottom`属性以解决文章中标题前后间距过大问题 
+
 * 下午 添加了listder的blog为友链   
 
 * 24.04.20 下午 更新了`pnpm`, `vitepress`版本，顺便设置了`package-manager-strict`为false以忽略版本检查，这样一来本地部署就方便些了
-:::    
-    
+
+* 24.04.27 晚 添加了关琪，toshiki的blog为友链
+
+  :::    
+
 ## 目前blog存在的issues＆ToDoList    
 
 * 首先当然就是背景图的问题，由于完全不会前端，现在必须得有四张背景图，也就是大屏幕/小屏幕和亮色/暗色四项排列组合的四种情况各需要一张，后续学会了用css遮罩的话可以减少到两张
