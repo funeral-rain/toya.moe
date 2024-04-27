@@ -54,7 +54,7 @@ github：<a href="https://github.com/18650official" target="_blank" rel="norefer
 
 ::: details Toshiki
 <a href="https://toshiki.dev" target="_blank" rel="noreferrer">
-<img src="./img/toshiki.webp" alt="Toshiki" width=120px height=168px>
+<img src="./img/toshiki.webp" alt="Toshiki" width=120px height=120px>
 </a>
 blog：<a href="https://toshiki.dev" target="_blank" rel="noreferrer">https://toshiki.dev</a>
 :::
