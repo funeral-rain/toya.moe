@@ -13,7 +13,7 @@ export default defineConfig({
       { text: 'Fuyutsuki Toya', link: '/toya-kawaii/toya' },
       { text: 'Technology', link: '/tech/tech ' },
       { text: 'Home', link: '/' },
-      { text: 'Friends', link: '/other/friends'}
+      { text: 'Friends', link: '/other/friends/index'}
     ],
 
     sidebar: [
@@ -34,7 +34,7 @@ export default defineConfig({
         text: 'Other',
         items: [
           { text: 'Blog archive', link: '/other/blog-archive' },
-          { text: 'Friends', link: '/other/friends' },
+          { text: 'Friends', link: '/other/friends/index' },
           { text: 'About me', link: '/other/about-me' },
         ]
       },
