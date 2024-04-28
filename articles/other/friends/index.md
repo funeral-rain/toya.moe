@@ -13,7 +13,7 @@ import { FRIENDS_DATA } from './data'
 
 ::: details Alice Aierlanta
 <a href="https://blog.aierlanta.net/" target="_blank" rel="noreferrer">
-<img src="./img/Alice_Aierlanta.webp" alt="Alice_Aierlanta" width=120px height=120px>
+<img src="../img/Alice_Aierlanta.webp" alt="Alice_Aierlanta" width=120px height=120px>
 </a>
 blog：<a href="https://blog.aierlanta.net/" target="_blank" rel="noreferrer">https://blog.aierlanta.net/</a>
 :::
@@ -27,56 +27,56 @@ blog：<a href="https://csmoe.top/" target="_blank" rel="noreferrer">https://csm
 
 ::: details 关琪
 <a href="https://csmoe.top/" target="_blank" rel="noreferrer">
-<img src="./img/hakinanako.webp" alt="Anthony_Summit" width=120px height=120px>
+<img src="../img/hakinanako.webp" alt="Anthony_Summit" width=120px height=120px>
 </a>
 blog：<a href="https://hakinanako.github.io/" target="_blank" rel="noreferrer">https://hakinanako.github.io/</a>
 :::
 
 ::: details 鲲
 <a href="https://soft.moe/" target="_blank" rel="noreferrer">
-<img src="./img/kun.webp" alt="kun" width=120px height=120px>
+<img src="../img/kun.webp" alt="kun" width=120px height=120px>
 </a>
 blog：<a href="https://soft.moe/" target="_blank" rel="noreferrer">https://soft.moe/</a>
 :::
 
 ::: details LC
 <a href="https://lcwebsite.cn/" target="_blank" rel="noreferrer">
-<img src="./img/LC.webp" alt="LC" width=120px height=120px>
+<img src="../img/LC.webp" alt="LC" width=120px height=120px>
 </a>
 blog：<a href="https://lcwebsite.cn/" target="_blank" rel="noreferrer">https://lcwebsite.cn/</a>
 :::
 
 ::: details listder
 <a href="https://blog.listder.xyz/" target="_blank" rel="noreferrer">
-<img src="./img/listder.webp" alt="listder" width=120px height=120px>
+<img src="../img/listder.webp" alt="listder" width=120px height=120px>
 </a>
 blog：<a href="https://blog.listder.xyz/" target="_blank" rel="noreferrer">https://blog.listder.xyz/</a>
 :::
 
 ::: details 洛华
 <a href="https://luohua.moe/" target="_blank" rel="noreferrer">
-<img src="./img/luohua.webp" alt="luohua" width=120px height=120px>
+<img src="../img/luohua.webp" alt="luohua" width=120px height=120px>
 </a>
 blog：<a href="https://luohua.moe/" target="_blank" rel="noreferrer">https://luohua.moe/</a>
 :::
 
 ::: details MikuMeow
 <a href="https://github.com/18650official" target="_blank" rel="noreferrer">
-<img src="./img/Miku_Moew.webp" alt="Miku_Moew" width=120px height=120px>
+<img src="../img/Miku_Moew.webp" alt="Miku_Moew" width=120px height=120px>
 </a>
 github：<a href="https://github.com/18650official" target="_blank" rel="noreferrer">https://github.com/18650official</a>
 :::
 
 ::: details Toshiki
 <a href="https://toshiki.dev" target="_blank" rel="noreferrer">
-<img src="./img/toshiki.webp" alt="Toshiki" width=120px height=120px>
+<img src="../img/toshiki.webp" alt="Toshiki" width=120px height=120px>
 </a>
 blog：<a href="https://toshiki.dev" target="_blank" rel="noreferrer">https://toshiki.dev</a>
 :::
 
 ::: details 小月月
 <a href="https://canyat.github.io/" target="_blank" rel="noreferrer">
-<img src="./img/canyat.webp" alt="canyat" width=120px height=168px>
+<img src="../img/canyat.webp" alt="canyat" width=120px height=168px>
 </a>
 blog：<a href="https://canyat.github.io/" target="_blank" rel="noreferrer">https://canyat.github.io/</a>
 :::
