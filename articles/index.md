@@ -18,7 +18,7 @@ hero:
       link: /tech/tech
     - theme: alt
       text: Friends
-      link: /other/friends
+      link: /other/friends/index
     - theme: alt
       text: About me
       link: /other/about-me
