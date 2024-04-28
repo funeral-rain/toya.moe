@@ -2,6 +2,7 @@
 import { h } from 'vue'
 import type { Theme } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
+import Friends from './components/Friends.vue'
 
 import './style.css'
 
@@ -13,6 +14,6 @@ export default {
     })
   },
   enhanceApp({ app, router, siteData }) {
-    // ...
+    app.component('Friends', Friends)
   },
 } satisfies Theme
