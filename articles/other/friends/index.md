@@ -1,3 +1,5 @@
+# 我的朋友们
+
 <!-- importing friends list data -->
 <script setup>
 import { FRIENDS_DATA } from './data'
@@ -5,8 +7,7 @@ import { FRIENDS_DATA } from './data'
 
 <Friends v-for="{title, items} in FRIENDS_DATA" :title="title" :items="items"/>
 
-# 我的朋友们
-
+<!--
 ## 友链：
 * 以名字首字母顺序从上到下排列：  
   
@@ -26,7 +27,7 @@ blog：<a href="https://csmoe.top/" target="_blank" rel="noreferrer">https://csm
 :::
 
 ::: details 关琪
-<a href="https://csmoe.top/" target="_blank" rel="noreferrer">
+<a href="https://hakinanako.github.io/" target="_blank" rel="noreferrer">
 <img src="../img/hakinanako.webp" alt="Anthony_Summit" width=120px height=120px>
 </a>
 blog：<a href="https://hakinanako.github.io/" target="_blank" rel="noreferrer">https://hakinanako.github.io/</a>
@@ -81,9 +82,11 @@ blog：<a href="https://toshiki.dev" target="_blank" rel="noreferrer">https://to
 blog：<a href="https://canyat.github.io/" target="_blank" rel="noreferrer">https://canyat.github.io/</a>
 :::
 
+-->
+
 ## 感谢 
 
-* 首先是要感谢鲲！他的努力和开朗能让认识他的人得到力量！他的前端技术很扎实，能做好全栈开发，在包括但不限于本blog的搭建上帮助了我很多！从买域名开始教我，然后就是如何把域名给`cloudflare`托管，与`github pages`链接起来，并推荐了`vitepress`这个简单易用的框架，一步步教会我这样一个完全不懂前端的萌新使用这个框架，并将网页部署到`github pages`上  
+* 首先是要感谢KUN！他的努力和开朗能让认识他的人得到力量！他的前端技术很扎实，能做好全栈开发，在包括但不限于本blog的搭建上帮助了我很多！从买域名开始教我，然后就是如何把域名给`cloudflare`托管，与`github pages`链接起来，并推荐了`vitepress`这个简单易用的框架，一步步教会我这样一个完全不懂前端的萌新使用这个框架，并将网页部署到`github pages`上  
   本blog一开始的`vitepress`框架也是他生成给我展示后，我再慢慢跟着官方文档和他的指导把blog做好的，因此鲲也是这个blog的contributor。若是没有鲲我一定不能这么快把blog做好，更可能会是中途放弃做这个blog  
   他现在还做了一个galgame论坛：[鲲 galgame](https://www.kungal.com/zh-cn)，希望看到这里的gal玩家能多多支持这个刚刚建立的小论坛！界面设计得非常优雅，网页操作也很流畅，而且还有很多galgame的彩蛋，绝对会让你眼前一亮！  
   
@@ -92,5 +95,13 @@ blog：<a href="https://canyat.github.io/" target="_blank" rel="noreferrer">http
 
 ## 互加友链
 
-* 可以给 [toya@toya.moe](mailto:toya@toya.moe) 发送你的blog链接，告诉我你如何称呼，以及头像的文件或头像的图床  
-
+* 可以给 [toya@toya.moe](mailto:toya@toya.moe) 发送如下格式信息
+```typescript
+{
+    icon: 'https://toya.moe/toya.webp',
+    title: 'Funeral Rain\'s Blog',
+    desc: '...Just a chaotic doom',
+    link: 'https://toya.moe'
+},
+``` 
+若logo无图床，则可以在邮箱附件中添加你的logo并由我添加上去
