@@ -6,7 +6,7 @@ export const FRIENDS_DATA: FriendsData[] = [
     title: 'Friend Links',
     items: [
       {
-        icon: '../img/Alice_Aierlanta.webp',
+        icon: '/friends/Alice_Aierlanta.webp',
         title: 'Alice Aierlanta\'s blog',
         desc: '是乱七八糟之国的Alice！',
         link: 'https://blog.aierlanta.net/'
@@ -18,37 +18,37 @@ export const FRIENDS_DATA: FriendsData[] = [
         link: 'https://csmoe.top/'
       },
       {
-        icon: '../img/hakinanako.webp',
+        icon: '/friends/hakinanako.webp',
         title: '关琪(Hakiko)',
         desc: '代码科技，小子',
         link: 'https://hakinanako.github.io/'
       },
       {
-        icon: '../img/kun.webp',
+        icon: '/friends/kun.webp',
         title: 'KUN\'s blog',
         desc: 'KUN\'s moe moe blog, KUN IS THE CUTEST!',
         link: 'https://soft.moe/'
       },
       {
-        icon: '../img/LC.webp',
+        icon: '/friends/LC.webp',
         title: 'LC的网站',
         desc: '信念创造奇迹，科技改变生活。',
         link: 'https://lcwebsite.cn/'
       },
       {
-        icon: '../img/listder.webp',
+        icon: '/friends/listder.webp',
         title: 'Listder\'s blog',
         desc: 'Hantai Listder',
         link: 'https://blog.listder.xyz/'
       },
       {
-        icon: '../img/luohua.webp',
+        icon: '/friends/luohua.webp',
         title: 'luohua Blog',
         desc: '一个还没想好要写什么的博客，总之先建了再说',
         link: 'https://luohua.moe/'
       },
       {
-        icon: '../img/Miku_Moew.webp',
+        icon: '/friends/Miku_Moew.webp',
         title: 'Miku_Meow',
         desc: 'Hatsune Miku Lover♡ She/Her/It',
         link: 'https://github.com/18650official'
@@ -60,7 +60,7 @@ export const FRIENDS_DATA: FriendsData[] = [
         link: 'https://toshiki.dev'
       },
       {
-        icon: '../img/canyat.webp',
+        icon: '/friends/canyat.webp',
         title: '是小月月哦',
         desc: '只愿寻求一方净土 偏安一隅',
         link: 'https://canyat.github.io/'

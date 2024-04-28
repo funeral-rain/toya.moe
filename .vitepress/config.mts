@@ -4,7 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "Funeral Rain's Blog",
   description: "The blog for Toya, kawaii but \"arrogant\" little girl !",
-  //base: '/',
+  base: '/',
   srcDir: 'articles',
   outDir: './dist',
   themeConfig: {
