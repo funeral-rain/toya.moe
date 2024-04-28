@@ -1,3 +1,10 @@
+<!-- importing friends list data -->
+<script setup>
+import { FRIENDS_DATA } from './data'
+</script>
+
+<Friends v-for="{title, items} in FRIENDS_DATA" :title="title" :items="items"/>
+
 # 我的朋友们
 
 ## 友链：
