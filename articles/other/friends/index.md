@@ -96,12 +96,12 @@ blog：<a href="https://canyat.github.io/" target="_blank" rel="noreferrer">http
 ## 互加友链
 
 * 可以给 [toya@toya.moe](mailto:toya@toya.moe) 发送如下格式信息
-```typescript
+```json
 {
     icon: 'https://toya.moe/toya.webp',
     title: 'Funeral Rain\'s Blog',
     desc: '...Just a chaotic doom',
     link: 'https://toya.moe'
 },
-``` 
+```
 若logo无图床，则可以在邮箱附件中添加你的logo并由我添加上去

@@ -1,5 +1,7 @@
 node_modules
 
+.vscode
+
 .vitepress/cache
 dist
 
