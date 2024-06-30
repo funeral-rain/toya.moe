@@ -1,7 +1,7 @@
 {
   "name": "toya.moe",
   "description": "Funeral Rain's blog",
-  "packageManager": "pnpm@9.0.6",
+  "packageManager": "pnpm@9.1.0",
   "package-manager-strict": false,
   "devDependencies": {
     "@mdit-vue/shared": "^2.1.2",

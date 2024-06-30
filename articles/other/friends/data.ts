@@ -53,12 +53,12 @@ export const FRIENDS_DATA: FriendsData[] = [
         desc: 'Hatsune Miku Lover♡ She/Her/It',
         link: 'https://github.com/18650official'
       },
-      {
-        icon: 'https://saltedfishes.com/favicon.ico',
-        title: 'SaltedFishes\'s Blog',
-        desc: '「尽己所能见证一切有趣之事」',
-        link: 'https://saltedfishes.com/'
-      },
+//      {
+//        icon: 'https://saltedfishes.com/favicon.ico',
+//        title: 'SaltedFishes\'s Blog',
+//        desc: '「尽己所能见证一切有趣之事」',
+//        link: 'https://saltedfishes.com/'
+//      },
       {
         icon: 'https://r2.toshiki.dev/image/toshiki-home-nuxt/06b8cbad3dc799e4bfe42c5d8bad2498.svg',
         title: 'Toshiki\'s Homepage',

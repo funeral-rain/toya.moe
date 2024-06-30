@@ -61,7 +61,13 @@
 
 ::: details 24.05  
   
-* 24.05.02 中午 添加了saltedfishes的blog为友链 ~~是第一个通过邮箱联系添加了友链的人呢~~  
+* ~~24.05.02 中午 添加了saltedfishes的blog为友链 是第一个通过邮箱联系添加了友链的人呢~~
+
+:::
+
+::: details 24.06  
+  
+* 24.06.30 上午 暂时撤下saltedfishes的blog友链
 
 :::
 ## 目前blog存在的issues＆ToDoList    
