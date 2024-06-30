@@ -54,7 +54,7 @@ export const FRIENDS_DATA: FriendsData[] = [
         link: 'https://github.com/18650official'
       },
 //      {
-//        icon: 'https://saltedfishes.com/favicon.ico',
+//        icon: 'https://saltedfishes.com/images/avatar.webp',
 //        title: 'SaltedFishes\'s Blog',
 //        desc: '「尽己所能见证一切有趣之事」',
 //        link: 'https://saltedfishes.com/'
