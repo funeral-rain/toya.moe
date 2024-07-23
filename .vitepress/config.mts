@@ -27,7 +27,9 @@ export default defineConfig({
         text: 'Technology',
         items: [
           { text: '综述', link: '/tech/tech' },
-          { text: '一个初级的C语言序列化实现', link: '/tech/c-language-serialization' },
+          { text: 'Linux 常用软件的安装与设置笔记集', link: '/tech/command-install-common-software' },
+          { text: 'Linux 系统基本功能使用笔记集', link: '/tech/command-use-linux' },
+          { text: '系统修复笔记集', link: '/tech/command-repair-system' },
         ]
       },
       {
@@ -37,13 +39,6 @@ export default defineConfig({
           { text: 'Friends', link: '/other/friends/index' },
           { text: 'About me', link: '/other/about-me' },
         ]
-      },
-      {
-        text: 'Examples',
-        items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' },
-        ],
       },
       
     ],

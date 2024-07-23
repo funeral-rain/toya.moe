@@ -6,6 +6,8 @@
 
 ## articles
 
-*因为文章数量还少，暂不做分类*
+### 日常工具使用笔记
   
-* [一个初级的C语言序列化实现](/tech/c-language-serialization)
+* [Linux 常用软件的安装与设置笔记集](/tech/command-install-common-software)
+* [Linux 系统基本功能使用笔记集](/tech/command-use-linux)
+* [系统修复笔记集](/tech/command-repair-system)
