@@ -75,6 +75,8 @@
   
 * 更新了MikuMeow的友链链接
 
+* “Linux 系统基本功能使用笔记集” 更新
+
 :::
 
 ## 目前blog存在的issues＆ToDoList    

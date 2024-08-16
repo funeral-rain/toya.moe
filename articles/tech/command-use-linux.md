@@ -336,3 +336,129 @@ resolvectl flush-caches
 `ubuntu` 的 `dns` 分流设置等高级操作，以及原理详解还可以看看这篇文章 https://www.keepnight.com/archives/1772/ 
 
 ---
+
+## 切换默认命令行
+
+### 查看系统中的命令行
+
+ ```bash
+ cat /etc/shells
+ ```
+
+### chsh （将改变当前用户的默认命令行）
+
+输入
+
+```bash
+chsh -s <shell path>
+```
+
+确认即可
+
+### usermod （将改变指定用户所用的默认命令行）
+
+```bash
+sudo usermod --shell <shell path> <user name>
+```
+
+---
+
+## 在命令行下用 parted 修改和扩容硬盘分区
+
+### 前言
+
+服务器上扩容了虚拟磁盘之后也是一样需要手动扩容分区大小和文件系统才能被系统用上，而 `gdisk` 在这种情况下无法识别出被扩容了的扇区部分（？
+
+我使用的是 `gcp` 的机子，文档中推荐的扩容方式是使用 `parted` 而不是 `gdisk`，且无需关闭服务器即可应用更改，特此写一篇东西总结（
+
+### 确定分区类型
+
+```bash
+sudo parted -l
+```
+
+大概会看到如下输出
+
+```
+Model: Google PersistentDisk (scsi)
+Disk /dev/sda: 16.1GB
+Sector size (logical/physical): 512B/4096B
+Partition Table: gpt
+Disk Flags:
+
+Number  Start   End     Size    File system  Name              Flags
+14      1049kB  4194kB  3146kB                                 bios_grub
+15      4194kB  134MB   130MB   fat16                          boot, esp
+ 1      134MB   16.1GB  16.0GB  ext4         Linux filesystem
+```
+
+可以确定的是，我们要修改的磁盘就是 `/dev/sda`，需修改的分区的分区号为1，文件系统为 `ext4` 
+
+### 修改磁盘分区
+
+（以需修改的磁盘为 `/dev/sda` 为例）
+
+```bash
+sudo parted /dev/sda
+```
+
+在随后的 `parted` 命令行里，形如
+
+```
+GNU Parted 3.5
+Using /dev/sda
+Welcome to GNU Parted! Type 'help' to view a list of commands.
+(parted)
+```
+
+输入 （以修改的分区号为1为例）
+
+```
+resizepart 1
+```
+
+之后会弹出 `Warning: ...` 警告，输入
+
+```
+Yes
+```
+
+确定之后，在 `End?` 提示符处输入
+
+``` 
+100%
+```
+
+最后输入
+
+```
+quit
+```
+
+退出 `parted` 命令行
+
+### 读取新的分区表
+
+（磁盘以 `/dev/sda` 为例）
+
+```bash
+sudo partprobe /dev/sda
+```
+
+### 扩展文件系统
+
+以磁盘分区为 `/dev/sda1`，文件系统类型为 `ext4` 为例
+
+``` bash
+sudo resize2fs /dev/sda1
+```
+
+### 确认更改
+
+无需重启，输入
+
+```bash
+df -h
+```
+
+查看磁盘分区是否已扩容即可
