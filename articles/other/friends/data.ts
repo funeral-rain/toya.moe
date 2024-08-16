@@ -50,8 +50,8 @@ export const FRIENDS_DATA: FriendsData[] = [
       {
         icon: '/friends/Miku_Moew.webp',
         title: 'Miku_Meow',
-        desc: 'Hatsune Miku Lover♡ She/Her/It',
-        link: 'https://github.com/18650official'
+        desc: '葱酱的幻想乡 - Snowmiku\'s Dreamland',
+        link: 'https://snowmiku-home.top'
       },
 //      {
 //        icon: 'https://saltedfishes.com/images/avatar.webp',
