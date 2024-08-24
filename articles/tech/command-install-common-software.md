@@ -366,7 +366,7 @@ sudo make && sudo make install && sudo make install-config
   ```
 
   ```bash
-  sudo systemctl start docke
+  sudo systemctl start docker
   ```
 
 * 拉取docker版shadowsocks-libev

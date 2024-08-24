@@ -61,7 +61,7 @@
 
 ::: details 24.05 ~ 24.07
   
-* ~~24.05.02 中午 添加了saltedfishes的blog为友链 是第一个通过邮箱联系添加了友链的人呢~~
+* 24.05.02 中午 添加了saltedfishes的blog为友链 ~~是第一个通过邮箱联系添加了友链的人呢~~
   
 * 24.06.30 上午 暂时撤下saltedfishes的blog友链
 
@@ -76,6 +76,8 @@
 * 更新了MikuMeow的友链链接
 
 * “Linux 系统基本功能使用笔记集” 更新
+
+* 24.08.24 上午 恢复saltedfishes的blog友链
 
 :::
 
