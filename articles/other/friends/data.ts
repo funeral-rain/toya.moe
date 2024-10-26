@@ -18,6 +18,12 @@ export const FRIENDS_DATA: FriendsData[] = [
         link: 'https://csmoe.top/'
       },
       {
+        icon: 'https://yueyueniao1.us.kg/%E5%A4%B4%E5%83%8F.webp',
+        title: 'DaiZhongpeng\'s Blog',
+        desc: '岱中鹏的小站 🎉未来可期，共赴澎湃🎉',
+        link: 'https://daizhongpeng-blog.us.kg'
+      },
+      {
         icon: '/friends/hakinanako.webp',
         title: '关琪(Hakiko)',
         desc: '代码科技，小子',
